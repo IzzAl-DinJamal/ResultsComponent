@@ -1,0 +1,184 @@
+/* Start Global Rules */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+/* End Global Rules */
+.content{
+    width: 740px;
+    height: 515px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+}
+@media (max-width: 767px){
+    .content{
+        flex-direction: column;
+        top: 0;
+        transform: translate(-50%, 0);
+        width: 370px;
+        height: 1030px;
+        border-radius: 0 0 25px 25px;
+    }
+}
+.content .result{
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom, #6844fe, #322ce4);
+    text-align: center;
+    padding: 40px 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 767px){
+    .content .result{
+        width: 100%;
+        height: 50%;
+        border-radius: 0 0 25px 25px;
+    }
+}
+.content .result > span{
+    display: inline-block;
+    color: #c9c6f3;
+    font-size: 24px;
+    font-weight: 700;
+}
+.content .result .score{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #4821cc, #4734f0);
+}
+.content .result .score h1{
+    margin: 0;
+    color: #fff;
+    font-size: 78px;
+    font-weight: 800;
+}
+.content .result .score span{
+    color: #897cff;
+    margin: 0;
+    margin-top: -5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.content .result .type-result h2{
+    margin: 0;
+    font-size: 34px;
+    color: #fff;
+    font-weight: 800;
+}
+.content .result .type-result p{
+    font-size: 17px;
+    margin: 0;
+    margin-top: 15px;
+    color: #9a9ae7;
+}
+/* Start Summury */
+.summary{
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media (max-width: 767px){
+    .content .summary{
+        width: 100%;
+        height: 50%;
+    }
+}
+.summary h2{
+    display: inline-block;
+    color: #303b59;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0;
+}
+.summary .skills > div{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 12px;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.summary .skills > div .title{
+    display: flex;
+    align-items: center;
+}
+.summary .skills > div .title img{
+    margin-right: 10px;
+}
+.summary .skills > div .title span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.summary .skills .reaction{
+    background-color: #fff6f5;
+}
+.summary .skills .reaction .title span{
+    color: #ec7f7f;
+}
+.summary .skills .memory{
+    background-color: #fffaf4;
+}
+.summary .skills .memory .title span{
+    color: #fbc864;
+}
+.summary .skills .verbal{
+    background-color: #f2fbfa;
+}
+.summary .skills .verbal .title span{
+    color: #5bcead;
+}
+.summary .skills .visual{
+    background-color: #fff6f5;
+}
+.summary .skills .visual .title span{
+    color: #404abd;
+}
+.summary .skills > div .score span{
+    font-weight: 700;
+    font-size: 20px;
+}
+.summary .skills > div .score span:first-of-type{
+    color: #303b59;
+}
+.summary .skills > div .score span:last-of-type{
+    color: #a8b0b8;
+}
+.summary button{
+    height: 50px;
+    border-radius: 50px;
+    width: 100%;
+    border: 0;
+    background-color: #303b59;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.summary button:active{
+    background-image: linear-gradient(to bottom, #6644fe, #302ce9);
+}
