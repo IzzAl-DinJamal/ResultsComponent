@@ -18,8 +18,8 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-![Web View](image.png)
-![Mobile View](image-1.png)
+![Web View](https://github.com/IzzAl-DinJamal/ResultsComponent/assets/18610930/ecefab0a-e5ee-48ac-92c8-b1af33de20c1)
+![Mobile View](https://github.com/IzzAl-DinJamal/ResultsComponent/assets/18610930/a68dfa34-bc75-49f5-976f-d650c380a66a)
 
 ## My process
 
